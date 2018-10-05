@@ -7,7 +7,7 @@ storiesOf('Header', module)
   .add('default view', () => {
     return (
       <div className="todoapp">
-        <Header addTodo={action('Add Todo')}/>
+        <Header addTodo={action('Add Todo PLEASE!!!!')}/>
       </div>
     );
   });

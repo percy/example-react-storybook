@@ -1,12 +1,9 @@
-import { configure } from '@kadira/storybook';
+import { configure } from '@storybook/react';
 import 'todomvc-app-css/index.css'
+import 'storybook-chromatic';
 
 function loadStories() {
   require('../components/stories/');
 }
 
 configure(loadStories, module);
-
-if (typeof window === 'object') {
-  window.__storybook_stories__ = require('@kadira/storybook').getStorybook();
-}

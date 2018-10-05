@@ -1,6 +1,7 @@
 import React from 'react';
 import MainSection from '../MainSection';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 storiesOf('MainSection', module)
   .add('all active', () => {
@@ -13,7 +14,7 @@ storiesOf('MainSection', module)
   })
   .add('some completed', () => {
     const todoItems = [
-      { id: 'one', text: 'Item One', completed: false },
+      { id: 'one', text: 'Item One 333', completed: false },
       { id: 'two', text: 'Item Two', completed: true },
     ];
 

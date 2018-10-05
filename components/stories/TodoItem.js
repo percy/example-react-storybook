@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoItem from '../TodoItem';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 storiesOf('TodoItem', module)
   .add('not completed', () => {

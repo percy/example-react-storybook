@@ -14,7 +14,7 @@ class Footer extends Component {
     const itemWord = activeCount === 1 ? 'item' : 'items'
 
     return (
-      <span className="todo-count">
+      <span className="todo-count voodoo-pounnt">
         <strong>{activeCount || 'No'}</strong> {itemWord} left
       </span>
     )

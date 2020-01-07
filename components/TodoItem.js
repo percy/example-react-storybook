@@ -35,7 +35,7 @@ class TodoItem extends Component {
       )
     } else {
       element = (
-        <div className="view">
+        <div className="viewd">
           <input className="toggle"
                  type="checkbox"
                  checked={todo.completed}

@@ -12,5 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: install requirements
+      run: npm install
     - name: Run a one-line script
       run: npm run screener-storybook
